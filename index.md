@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查阅时请先看此处。
-> 最后更新：2026-04-29 | 总页数：21
+> 最后更新：2026-04-29 | 总页数：22
 
 ## Entities
 - [[mattpocock-skills]] | Matt Pocock 开源的 coding agent skill 集合，38k+ stars，主打 small/composable/frontend 对齐。
@@ -28,6 +28,7 @@
 - [[freelance-work-observations]] | 自由职业与工作观察：自由的定义与工作方式比较。
 - [[game-design-notes]] | 游戏设计随笔：核心玩法、耐久度心理与荒野生存指南。
 - [[engineering-toolkit]] | 工程工具集：浏览器自动化、框架与远程串流方案备忘。
+- [[communication-patterns]] | 沟通表达模式：先给结论、比喻对齐、描述立体感与原始人模式。
 
 ## Comparisons
 
