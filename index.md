@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查阅时请先看此处。
-> 最后更新：2026-04-29 | 总页数：13
+> 最后更新：2026-04-29 | 总页数：21
 
 ## Entities
 - [[mattpocock-skills]] | Matt Pocock 开源的 coding agent skill 集合，38k+ stars，主打 small/composable/frontend 对齐。
@@ -20,6 +20,14 @@
 - [[structured-concurrency]] | 协程管理范式：任务必须有父级 scope，避免飘浮。
 - [[zustand-best-practices]] | Zustand 官方推荐的 5 条最佳实践，涵盖 selector、actions 分离、store 拆分。
 - [[agent-knowledge-maintenance]] | Agent 协作开发中的知识维护范式，包括三层模型与上下文腐败问题。
+- [[ai-blueprint-driven-dev]] | AI 蓝图驱动开发：从批量任务到多智能体协同的工程范式。
+- [[ai-context-and-prompts]] | 上下文管理与提示工程：溢出、迭代与共享语义。
+- [[product-system-design]] | 产品与系统设计观察：功能视角 vs 设计视角、层级拆分与「盐」方法。
+- [[cognition-tools]] | 认知工具与法则：碎片化思维、表达焦虑与进度作为障碍清除。
+- [[learning-cognition]] | 学习与认知科学：洛克观念论、AI 深度学习与记忆宫殿。
+- [[freelance-work-observations]] | 自由职业与工作观察：自由的定义与工作方式比较。
+- [[game-design-notes]] | 游戏设计随笔：核心玩法、耐久度心理与荒野生存指南。
+- [[engineering-toolkit]] | 工程工具集：浏览器自动化、框架与远程串流方案备忘。
 
 ## Comparisons
 

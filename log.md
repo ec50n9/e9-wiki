@@ -21,6 +21,12 @@
 - 新建页面：concepts/pre-bedtime-ritual.md
 - 更新：index.md (总页数 13 → 14)
 
+## [2026-04-29] ingest | flomo 个人笔记批量聚合
+- 来源：flomo 导出 (353 条 memos，筛除 62 条后保留 253 条)
+- 分类：15 个主题聚类，合并为 8 个概念页
+- 新建页面：concepts/ai-blueprint-driven-dev.md, concepts/ai-context-and-prompts.md, concepts/product-system-design.md, concepts/cognition-tools.md, concepts/learning-cognition.md, concepts/freelance-work-observations.md, concepts/game-design-notes.md, concepts/engineering-toolkit.md
+- 更新：index.md (总页数 13 → 21)，SCHEMA.md 领域拓展为“AI 辅助开发、工程实践、认知工具与产品设计”
+
 ## [2026-04-29] ingest | mattpocock/skills：Skills for Real Engineers
 - 来源：GitHub 仓库 https://github.com/mattpocock/skills ^[raw/articles/mattpocock-skills-for-real-engineers.md]
 - 新建页面：entities/mattpocock-skills.md, concepts/agent-grilling.md, concepts/agent-shared-language.md, concepts/agent-tdd-skill.md

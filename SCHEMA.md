@@ -1,7 +1,7 @@
 # Wiki Schema
 
 ## Domain
-AI 辅助开发与工程实践。涵盖 coding agent 使用模式与 skill 设计、编程语言与框架、工程方法论与工具链。中文为主，术语保留英文原貌。
+AI 辅助开发、工程实践、认知工具与产品设计。涵盖 coding agent 使用模式与 skill 设计、编程语言与框架、工程方法论、认知科学与笔记法、产品与系统设计。中文为主，术语保留英文原貌。
 
 ## Conventions
 - 文件名：小写，连字符，无空格（如 `agent-grilling.md`）
