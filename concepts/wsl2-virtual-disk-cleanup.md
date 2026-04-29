@@ -3,7 +3,7 @@ title: WSL2 虚拟磁盘膨胀与清理
 created: 2026-04-28
 updated: 2026-04-28
 type: concept
-tags: [technology, methodology, tool]
+tags: [devops, methodology, tool]
 sources: [raw/articles/wsl2-ghost-space-why-deleted-files-dont-free-disk.md]
 confidence: high
 ---

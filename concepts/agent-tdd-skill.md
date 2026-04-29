@@ -3,7 +3,7 @@ title: Agent TDD Skill
 created: 2026-04-29
 updated: 2026-04-29
 type: concept
-tags: [methodology, tool, concept]
+tags: [ai-agent, methodology, tool]
 sources: [raw/articles/mattpocock-skills-for-real-engineers.md]
 confidence: medium
 ---

@@ -3,7 +3,7 @@ title: WSL2
 created: 2026-04-28
 updated: 2026-04-28
 type: entity
-tags: [technology, tool]
+tags: [devops, tool]
 sources: [raw/articles/wsl2-ghost-space-why-deleted-files-dont-free-disk.md]
 confidence: high
 ---

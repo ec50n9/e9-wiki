@@ -3,7 +3,7 @@ title: Zustand 最佳实践
 created: 2026-04-28
 updated: 2026-04-28
 type: concept
-tags: [technology, methodology]
+tags: [frontend, methodology]
 sources: [raw/articles/zustand-top-5-best-practices.md]
 confidence: high
 ---

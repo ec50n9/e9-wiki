@@ -3,7 +3,7 @@ title: Kotlin Coroutines
 created: 2026-04-28
 updated: 2026-04-28
 type: entity
-tags: [technology, tool]
+tags: [programming, tool]
 sources: [raw/articles/kotlin-coroutines-skill-official-release.md]
 confidence: high
 ---

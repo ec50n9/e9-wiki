@@ -3,7 +3,7 @@ title: Agent 知识维护
 created: 2026-04-29
 updated: 2026-04-29
 type: concept
-tags: [technology, methodology]
+tags: [ai-agent, methodology]
 sources: [raw/articles/neat-skill-open-source-agent-knowledge-maintenance.md]
 confidence: high
 ---

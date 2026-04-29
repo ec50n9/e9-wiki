@@ -11,6 +11,11 @@
 - 语言：中文为主
 - 结构：SCHEMA.md, index.md, log.md 创建完成
 
+## [2026-04-29] archive | pre-bedtime-ritual
+- 原因：超出 wiki 领域范围（健康/效率），e9-wiki 收窄为 AI 辅助开发与工程实践
+- 移至：_archive/concepts/pre-bedtime-ritual.md
+- 更新：SCHEMA.md 标签体系、index.md 总页数 14 → 13
+
 ## [2026-04-29] ingest | 今天起，建议晚上提前洗漱
 - 来源：微信公众号文章 ^[raw/articles/今天起建议晚上提前洗漱.md]
 - 新建页面：concepts/pre-bedtime-ritual.md

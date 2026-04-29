@@ -3,7 +3,7 @@ title: mattpocock/skills
 created: 2026-04-29
 updated: 2026-04-29
 type: entity
-tags: [tool, company, methodology]
+tags: [ai-agent, tool, skill]
 sources: [raw/articles/mattpocock-skills-for-real-engineers.md]
 confidence: high
 ---

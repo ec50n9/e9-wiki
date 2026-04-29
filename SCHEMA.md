@@ -1,10 +1,10 @@
 # Wiki Schema
 
 ## Domain
-个人阅读笔记与知识沉淀库。涵盖书籍、文章、论文、播客、视频等来源的提取、整理与交叉关联。中文为主，术语保留英文原貌。
+AI 辅助开发与工程实践。涵盖 coding agent 使用模式与 skill 设计、编程语言与框架、工程方法论与工具链。中文为主，术语保留英文原貌。
 
 ## Conventions
-- 文件名：小写，连字符，无空格（如 `cognitive-bias.md`）
+- 文件名：小写，连字符，无空格（如 `agent-grilling.md`）
 - 每页开头必须有 YAML frontmatter
 - 使用 `[[wikilinks]]` 链接页面（每页至少 2 个出站链接）
 - 更新页面时，必须更新 `updated` 日期
@@ -21,10 +21,7 @@ updated: YYYY-MM-DD
 type: entity | concept | comparison | query | summary
 tags: [来自下方标签体系]
 sources: [raw/articles/source-name.md]
-# 可选质量信号：
-confidence: high | medium | low
-contested: true
-contradictions: [other-page-slug]
+# 可选质量信号：confidence: high | medium | low
 ---
 ```
 
@@ -38,11 +35,11 @@ sha256: <正文内容的 hex digest>
 ```
 
 ## Tag Taxonomy
-- **来源类型**: book, article, paper, podcast, video, course
-- **领域**: philosophy, psychology, history, science, technology, business, literature, art, politics
-- **概念类型**: concept, methodology, framework, model, theory, tool
-- **人物/组织**: person, company, lab, writer
-- **元信息**: comparison, timeline, controversy, prediction, note-to-self
+- **核心领域**: ai-agent, programming, frontend, backend, devops
+- **类型**: concept, methodology, framework, tool, skill, pattern
+- **人物/组织**: person, company, lab, open-source
+- **来源**: article, paper, video, course
+- **元信息**: comparison, timeline, prediction
 
 规则：每页标签必须在此 taxonomy 内。需要新标签时，先在此添加，再使用。
 
@@ -51,7 +48,7 @@ sha256: <正文内容的 hex digest>
 - **添加到已有页面**：来源提及已有内容
 - **不创建页面**：仅一笔带过、脚注提及、域外内容
 - **拆分页面**：超过 200 行时拆分子主题，互相链接
-- **归档页面**：内容被完全替代时，移入 `_archive/`，从 index 移除
+- **归档页面**：内容被完全替代或超出领域范围时，移入 `_archive/`，从 index 移除
 
 ## Entity Pages
 一个实体一页。包含：

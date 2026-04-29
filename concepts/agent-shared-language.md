@@ -3,7 +3,7 @@ title: Agent Shared Language
 created: 2026-04-29
 updated: 2026-04-29
 type: concept
-tags: [methodology, concept, framework]
+tags: [ai-agent, methodology, framework]
 sources: [raw/articles/mattpocock-skills-for-real-engineers.md]
 confidence: medium
 ---

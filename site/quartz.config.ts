@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "E9 Wiki",
+    pageTitle: "E9 Dev Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

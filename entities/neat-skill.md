@@ -3,7 +3,7 @@ title: 洁癖.Skill
 created: 2026-04-29
 updated: 2026-04-29
 type: entity
-tags: [technology, tool, methodology]
+tags: [ai-agent, tool, skill]
 sources: [raw/articles/neat-skill-open-source-agent-knowledge-maintenance.md]
 confidence: high
 ---

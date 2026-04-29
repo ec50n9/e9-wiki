@@ -3,7 +3,7 @@ title: Agent Grilling
 created: 2026-04-29
 updated: 2026-04-29
 type: concept
-tags: [methodology, concept]
+tags: [ai-agent, methodology]
 sources: [raw/articles/mattpocock-skills-for-real-engineers.md]
 confidence: medium
 ---

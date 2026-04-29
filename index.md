@@ -2,7 +2,7 @@
 
 > 内容目录。每个 wiki 页面按类型列出，附一行摘要。
 > 查阅时请先看此处。
-> 最后更新：2026-04-29 | 总页数：14
+> 最后更新：2026-04-29 | 总页数：13
 
 ## Entities
 - [[mattpocock-skills]] | Matt Pocock 开源的 coding agent skill 集合，38k+ stars，主打 small/composable/frontend 对齐。
@@ -20,7 +20,6 @@
 - [[structured-concurrency]] | 协程管理范式：任务必须有父级 scope，避免飘浮。
 - [[zustand-best-practices]] | Zustand 官方推荐的 5 条最佳实践，涵盖 selector、actions 分离、store 拆分。
 - [[agent-knowledge-maintenance]] | Agent 协作开发中的知识维护范式，包括三层模型与上下文腐败问题。
-- [[pre-bedtime-ritual]] | 提前洗漱作为睡前过渡仪式，利用体温下降与经典条件反射减少入睡内耗。
 
 ## Comparisons
 
