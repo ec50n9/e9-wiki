@@ -11,6 +11,21 @@
 - 语言：中文为主
 - 结构：SCHEMA.md, index.md, log.md 创建完成
 
+## [2026-04-29] ingest | 今天起，建议晚上提前洗漱
+- 来源：微信公众号文章 ^[raw/articles/今天起建议晚上提前洗漱.md]
+- 新建页面：concepts/pre-bedtime-ritual.md
+- 更新：index.md (总页数 13 → 14)
+
+## [2026-04-29] ingest | mattpocock/skills：Skills for Real Engineers
+- 来源：GitHub 仓库 https://github.com/mattpocock/skills ^[raw/articles/mattpocock-skills-for-real-engineers.md]
+- 新建页面：entities/mattpocock-skills.md, concepts/agent-grilling.md, concepts/agent-shared-language.md, concepts/agent-tdd-skill.md
+- 更新：index.md (总页数 9 → 13)
+
+## [2026-04-29] ingest | 开源「洁癖.skill」，让你的Agent越用越聪明
+- 来源：微信文章 ^[raw/articles/neat-skill-open-source-agent-knowledge-maintenance.md]
+- 新建页面：entities/neat-skill.md, concepts/agent-knowledge-maintenance.md
+- 更新：index.md (总页数 7 → 9)
+
 ## [2026-04-28] ingest | 使用 Zustand 时你必须遵循的 5 个强大最佳实践
 - 来源：微信文章 ^[raw/articles/zustand-top-5-best-practices.md]
 - 新建页面：entities/zustand.md, concepts/zustand-best-practices.md

@@ -1,0 +1,70 @@
+name: Deploy E9 Wiki to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wiki
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Clone Quartz v4
+        run: git clone --depth 1 -b v4 https://github.com/jackyzha0/quartz.git /tmp/quartz
+
+      - name: Install dependencies
+        run: |
+          cd /tmp/quartz
+          npm ci
+
+      - name: Sync wiki content
+        run: |
+          mkdir -p /tmp/quartz/content
+          for dir in concepts entities comparisons queries; do
+            if [ -d "$GITHUB_WORKSPACE/$dir" ] && [ "$(ls -A $GITHUB_WORKSPACE/$dir)" ]; then
+              cp -r "$GITHUB_WORKSPACE/$dir" /tmp/quartz/content/
+            fi
+          done
+          cp "$GITHUB_WORKSPACE/index.md" /tmp/quartz/content/
+
+      - name: Apply custom config
+        run: |
+          cp "$GITHUB_WORKSPACE/site/quartz.config.ts" /tmp/quartz/quartz.config.ts
+          cp "$GITHUB_WORKSPACE/site/quartz.layout.ts" /tmp/quartz/quartz.layout.ts
+
+      - name: Build
+        run: |
+          cd /tmp/quartz
+          npx quartz build --verbose
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: /tmp/quartz/public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
